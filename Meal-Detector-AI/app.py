@@ -1,4 +1,4 @@
-### 1. Imports and class names setup ### 
+-### 1. Imports and class names setup ### 
 import gradio as gr
 import os
 import torch
@@ -56,9 +56,9 @@ def predict(img) -> Tuple[Dict, float]:
 ### 4. Gradio app ###
 
 # Create title, description and article strings
-title = "FoodVision Mini 🍕🥩🍣"
-description = "An EfficientNetB2 feature extractor computer vision model to classify images of food as pizza, steak or sushi."
-article = "Created at [09. PyTorch Model Deployment](https://www.learnpytorch.io/09_pytorch_model_deployment/)."
+title = "Meal-Detector-AI"
+description = "Performs the classification among pizza-sushi-steak"
+article = "You can view it at https://github.com/Nikhil-9981/Meal-Detector-AI.git"
 
 # Create examples list from "examples/" directory
 example_list = [["examples/" + example] for example in os.listdir("examples")]
